@@ -1,0 +1,64 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+div{
+          width: 80%;
+          margin: auto;
+          min-height: 200px;
+          border: 1px solid black;
+          background-attachment: fixed;
+          /*this property is used for to overide the next/previous images ....*/
+
+          display: flex;
+          /*this property is used to fixed the image on the web page...when we override the image*/
+
+          justify-content: center;
+          /* this property is used for to justify your contents in centre*/
+
+          align-items: center;
+          /* this property of CSS is used for to align your image in centre*/
+
+          background-repeat: no-repeat;
+          /*if the height and width of the image is smaller that the width and height which is given by user then your background image is automatically repeated so if we want to avoid these then we have to use a property  of css and that is background-repeate=no-repeate*/
+
+          background-size: 100% 100%;
+          /*this property of css is used for to fixed your image on the web page....so thats why we use 100% * 100% means we have to use the entire width as well as height to the image*/
+          /* background-size: cover; also these property is used for the same purpose which is used for to use the background image as full dimension which is provided bby the user*/
+}
+.bg_1
+{
+          margin-top: 2px;
+          width: 100%;
+          height: 100vh;
+          background-image: url(../IMAGE/1.jpg);
+}
+.bg_2
+{
+          margin-top: 2px;
+          width: 100%;
+          height: 100vh;
+          background-image: url(../IMAGE/2.jpg);
+}
+.bg_3
+{
+          margin-top: 2px;
+          width: 100%;
+          height: 100vh;
+          background-image: url(../IMAGE/3.jpg);
+}
+.bg_4
+{
+          margin-top: 2px;
+          width: 100%;
+          height: 100vh;
+          background-image: url(../IMAGE/5.jpg);
+}
+.bg_5
+{
+          margin-top: 2px;
+          width: 100%;
+          height: 100vh;
+          background-image: url(../IMAGE/7.jpg);
+}
